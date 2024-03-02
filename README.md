@@ -6,7 +6,6 @@ Speed and direction control by Arduino
 <br><br>
 
 
-<div align="justify"> 
 I was having trouble getting the `bdesc-s10e-rtr` to work with *Arduino*, especially controlling the direction. After binding it with `bdesc`, I could only control the direction clockwise or counterclockwise, indicating that there must be a correct process for this. I didn't find much information about how `bdesc-s10e-rtr` works, but I did come across a post on this [forum](
 https://forum.arduino.cc/t/bdesc-s10e-rtr-electronic-speed-control-setup-for-brushed-motor/616972). Although the example provided in the post didn't work for me, the working description of `bdesc` made sense. Based on this, I created another example that worked for me.
 
@@ -31,5 +30,3 @@ It's possible to have a pulse variance of 50 ms to initiate rotation, considerin
 <br>
 
 Another important detail is that for counterclockwise rotation, a specific process is required, as described in the "anticlockwise" function in this [code](./bdesc-s10e-rtr-example-control.ino). This process takes at least about 300 ms. Therefore, an immediate reversal from clockwise to counterclockwise appears to be impossible, possibly implemented to safeguard the battery. Additionally, it's noteworthy that the maximum speed for counterclockwise rotation is half of the maximum speed achievable in the clockwise direction.
-
-</div>
