@@ -11,7 +11,7 @@ https://forum.arduino.cc/t/bdesc-s10e-rtr-electronic-speed-control-setup-for-bru
 
 <br>
 
-In short, `bdesc-s10e-rtr` is designed for RC cars, thus it operates in a specific manner. Similar to servo motors, `bdesc` is controlled using PWM signals, where the control pulse varies between 1000 ms to 200 ms. Here's a breakdown:
+In short, `bdesc-s10e-rtr` is designed for RC cars, thus it operates in a specific manner. Similar to servo motors, `bdesc` is controlled using PWM signals, where the control pulse varies between 1000 ms to 2000 ms. Here's a breakdown:
 
 
 <br>
